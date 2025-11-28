@@ -26,6 +26,7 @@ onMounted(() => {
 })
 
 
+
 </script>
 <template>
     <div class="p-8 pb-0 text-orange-500">
@@ -33,7 +34,7 @@ onMounted(() => {
     </div>
 
     <div class="p-8">
-        <input type="text" v-model="keyword" @change="searchMeals" class="rounded border-2 border-gray-400 w-full bg-white" placeholder="Enter Name"/>
+        <input type="text" v-model="keyword" @change="searchMeals" class="rounded border-2 border-gray-400 w-full bg-white" placeholder="Enter Name "/>
     </div>
 
     <Meals :meals="meals"></Meals>
