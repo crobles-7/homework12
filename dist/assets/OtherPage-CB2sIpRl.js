@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s,a as c}from"./index-DxnrcAqp.js";const n={},o={class:"flex min-h-screen items-center justify-center"},a=c("h1",{class:"text-6xl font-thin text-slate-800"},"I'm Other Page",-1),r=[a];function _(i,f){return s(),t("main",o,r)}const l=e(n,[["render",_]]);export{l as default};
